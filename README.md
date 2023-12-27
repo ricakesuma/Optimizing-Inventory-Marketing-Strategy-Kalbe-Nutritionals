@@ -48,6 +48,44 @@ Simultaneously, the Marketing team's objective is to develop a nuanced understan
 
 ## Step-by-Step Analysis:
 
+### SQL Analysis
+## SQL Analysis Step-by-Step
+
+The SQL analysis for Kalbe Nutritionals involves conducting exploratory data analysis in PostgreSQL. This process focuses on extracting specific insights related to customers and sales. Below are the steps outlined for each query:
+
+1. **Query - Average Age by Marital Status**:
+   - **Objective**: Determine the average age of customers segmented by their marital status.
+   - **Approach**: 
+     - Select the `Marital Status` and `Age` columns from the customer table.
+     - Group the data by `Marital Status`.
+     - Calculate the average age for each marital status group.
+   - **Expected Outcome**: This query will provide insights into the age distribution across different marital statuses, aiding in understanding the demographic profile of customers.
+
+2. **Query - Average Age by Gender**:
+   - **Objective**: Ascertain the average age of customers based on gender.
+   - **Approach**: 
+     - Select the `Gender` and `Age` columns from the customer table.
+     - Group the data by `Gender`.
+     - Compute the average age for each gender.
+   - **Expected Outcome**: This analysis will highlight any age differences between genders, which can be useful for targeted marketing and product development.
+
+3. **Query - Store with Highest Total Quantity**:
+   - **Objective**: Identify the store with the highest total quantity of products sold.
+   - **Approach**: 
+     - Join the store and transaction tables on the relevant keys.
+     - Sum the `Quantity` sold for each store.
+     - Order the results in descending order and select the top store.
+   - **Expected Outcome**: This will reveal the store with the highest sales volume, providing insights into regional performance or store effectiveness.
+
+4. **Query - Best-Selling Product by Total Amount**:
+   - **Objective**: Determine the best-selling product based on the total amount sold.
+   - **Approach**: 
+     - Join the product and transaction tables.
+     - Calculate the total amount for each product (possibly by multiplying the quantity sold by the product's price).
+     - Order the results in descending order to find the product with the highest total sales amount.
+   - **Expected Outcome**: Identifying the top-selling product will help understand consumer preferences and could influence inventory and marketing strategies.
+
+### Python Analysis
 1. **Data Loading and Preliminary Checks**:
    - Essential libraries such as pandas, numpy, matplotlib, and sklearn were imported to facilitate data handling and visualization.
    - The datasets for customers, products, stores, and transactions were loaded, setting the stage for a comprehensive analysis.
@@ -64,6 +102,41 @@ Simultaneously, the Marketing team's objective is to develop a nuanced understan
 5. **Clustering and Customer Segmentation**:
    - The project also involved using clustering techniques, likely KMeans, to segment customers into distinct groups. This is a critical part of the marketing strategy, enabling personalized promotions and tailored sales approaches.
   
+## Tableau Visualization Step-by-Step
+
+Creating a comprehensive dashboard in Tableau involves several steps, from setting up individual worksheets to integrating them into a final dashboard. Here's a breakdown of the process for Kalbe Nutritionals:
+
+1. **Preparing Data for Tableau**:
+   - Import the relevant datasets into Tableau. This typically includes data on transactions, products, and stores.
+
+2. **Creating Worksheets**:
+   - **Worksheet Ǽ - Monthly Quantity Sold**:
+     - Objective: Visualize the total quantity of products sold month by month.
+     - Approach: Create a line or bar chart showing the sum of quantities sold, grouped by month.
+   - **Worksheet ǽ - Daily Total Amount**:
+     - Objective: Display the total amount of sales day by day.
+     - Approach: Construct a visualization, like a line chart, that represents the total sales amount for each day.
+   - **Worksheet Ǿ - Sales Quantity by Product**:
+     - Objective: Analyze the quantity of sales broken down by product.
+     - Approach: Develop a chart, possibly a bar chart, that shows the total quantity sold for each product.
+   - **Worksheet ǿ - Total Sales Amount by Store Name**:
+     - Objective: Examine the total sales amount by each store.
+     - Approach: Use a visualization, such as a bar chart, to display the total sales amount categorized by store name.
+
+3. **Creating the Dashboard**:
+   - Combine the four worksheets (Ǽ, ǽ, Ǿ, ǿ) into a single, cohesive dashboard.
+   - Arrange the visualizations in a manner that allows for easy interpretation and comparison.
+   - Ensure that the dashboard is interactive, enabling users to filter and drill down into specific details as needed.
+
+4. **Refining the Dashboard**:
+   - Adjust the layout and design for clarity and visual appeal.
+   - Add titles, labels, and tooltips to enhance understanding.
+   - Test the dashboard's functionality, ensuring that all interactive elements work as intended.
+
+5. **Final Review and Sharing**:
+   - Review the dashboard for accuracy and completeness.
+   - Share the dashboard with stakeholders or publish it on the Tableau server for broader access.
+
 ## Interpretation
 
 The analysis conducted in the Jupyter Notebook for Kalbe Nutritionals provides valuable insights into both inventory management and customer segmentation, crucial for enhancing the company's operational and marketing strategies.
