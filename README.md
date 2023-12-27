@@ -2,13 +2,11 @@
 
 ### Introduction : **Optimizing Inventory & Marketing Strategy: The Kalbe Data Science Challenge**
 
-In the dynamic and competitive world of health foods and nutritional products, effective inventory management and marketing strategy are crucial for success. This project, undertaken for KALBE Nutritionals, aims to provide a comprehensive analysis and optimization plan for these critical business areas. 
+At Kalbe Nutritionals, a new initiative is underway, spearheaded by the Data Science team in collaboration with the Inventory and Marketing departments. The project's aim is twofold: to enhance inventory management through accurate daily sales predictions and to refine marketing strategies via customer segmentation.
 
-KALBE Nutritionals, a leader in the health food and beverage industry, faces the challenge of managing a diverse product portfolio while adapting to changing market trends and consumer preferences. The goal of this analysis is to utilize data science techniques to uncover insights into sales patterns, inventory turnover, customer behaviors, and marketing effectiveness. 
+The focus on sales forecasting is driven by the need for efficient inventory management. By predicting daily product sales, the Inventory team can better manage stock levels, ensuring availability while minimizing excess. This approach is critical for operational efficiency and cost reduction.
 
-By analyzing datasets related to customer demographics, product details, store performance, and transaction records, this project seeks to identify key drivers of sales success and areas for operational improvement. The insights gained will inform strategic decisions in inventory stocking, product placement, marketing campaigns, and customer engagement strategies. 
-
-This initiative is not just about understanding the current state of the business but also about predicting future trends and preparing KALBE Nutritionals to meet market demands proactively. Through this analysis, we aim to provide actionable recommendations that will enhance efficiency, boost sales, and solidify KALBE's position as a market leader in the health food and beverage sector.
+Simultaneously, the Marketing team's objective is to develop a nuanced understanding of the customer base through segmentation. This analysis will enable personalized marketing efforts, leading to more effective promotions and improved customer engagement. The synergy of these two objectives is expected to bolster Kalbe's operational excellence and market presence, demonstrating the transformative impact of data-driven decision-making in the competitive health foods and nutrition industry.
 
 # Data Overview
 ### Customer Data (`customer` DataFrame)
